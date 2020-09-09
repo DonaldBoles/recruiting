@@ -4,11 +4,11 @@ The [NPPES NPI Registry](https://npiregistry.cms.hhs.gov/) is a free directory o
 
 The NPPES NPI Registry also maintains an [API](https://npiregistry.cms.hhs.gov/registry/help-api) in order to allow users to programatically interface with the registry.
 
-For this technical exercise, we have provided a flat file of provider NPIs pulled from Reliance claims records.  These claims are all from providers that have ordered Lab results on their patients from commercial labs. The schema of the data in the flat file is:
+For this technical exercise, we have provided a [flat file](https://github.com/scotttse-rhie/recruiting/blob/master/Healthcare%20Data%20Analyst/data/provider_npi_list.tsv) of provider NPIs pulled from Reliance claims records.  These claims are all from providers that have ordered Lab results on their patients from commercial labs. The schema of the data in the flat file is:
 
-laboratory: name of the lab that performed the result in the claim
-provider_npi: unique NPI number of the provider
-claim_id_count: number of claims for that provider ordered from the laboratory in this row
+laboratory: name of the lab that performed the result in the claim  
+provider_npi: unique NPI number of the provider  
+claim_id_count: number of claims for that provider ordered from the laboratory in this row  
 
 We would like you to utilize the NPPES API to answer the following questions:
 
