@@ -12,9 +12,9 @@ For this technical exercise, we have provided a [flat file](https://github.com/s
 
 We would like you to utilize the NPPES API to answer the following questions:
 
-1) how many orders did the top 25 lab perform?
-2) who are the top 25 ordering providers?
+1) how many claims are there for each lab?
+2) who are the top 25 ordering providers (by NPI number and name)?
 3) of these top 25 providers, what are their addresses?
-4) BONUS: for the top 25 providers, what are the names of their clinics?
+4) BONUS (OPTIONAL): for the top 25 providers, what are the names of their clinics?
 
 Please write up your approach in a Python 3.x Jupyter Notebook (1-2 pages) and utilize the Pandas and/or Numpy libraries. You are also welcome and encouraged to use other python libraries that support your analysis. Please explain your work!
